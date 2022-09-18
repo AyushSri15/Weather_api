@@ -1,0 +1,71 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(230, 242, 255)
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(88, 184, 185);
+    font-weight: bold;
+    font-size: 12vh;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    color: black;
+    text-align: center;
+}
+
+
+.maindiv {
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+.part {
+    width: 33.3vw;
+    height: auto;
+
+}
+
+.imagedetails {
+    width: 30vw;
+    height: 30vh;
+}
+
+.fontsize {
+    width: auto;
+    margin: 4px 2px;
+    font-size: 5vh;
+}
+
+.fontnewsize {
+    font-size: 4vh;
+}
+
+.detailsbutton {
+  background-color: rgb(145, 145, 254);
+  border: 10px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 3vh;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.detailsweather{
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    font-size:3vh;
+}
+
